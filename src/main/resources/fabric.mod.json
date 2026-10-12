@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "daycounter",
+	"version": "${version}",
+	"name": "Day Counter",
+	"description": "Affiche le jour en cours en haut à gauche (Montserrat Black, contour bleu ciel, ombre).",
+	"authors": ["Soufiane EL HILALI"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["fr.soufiane.daycounter.DayCounterClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
