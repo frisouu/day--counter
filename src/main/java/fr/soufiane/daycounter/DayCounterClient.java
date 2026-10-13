@@ -37,14 +37,14 @@ public class DayCounterClient implements ClientModInitializer {
 	// ===== Réglages (unités = pixels d'interface Minecraft) =====
 	private static final int POS_X = 12;
 	private static final int POS_Y = 12;
-	private static final float FONT_SIZE = 20f;          // taille du texte
-	private static final float OUTLINE_WIDTH = 1.5f;     // épaisseur du contour
-	private static final float SHADOW_OFFSET = 1.5f;     // décalage de l'ombre
+	private static final float FONT_SIZE = 40f;          // taille du texte
+	private static final float OUTLINE_WIDTH = 3.0f;     // épaisseur du contour
+	private static final float SHADOW_OFFSET = 3.0f;     // décalage de l'ombre
 	private static final float SHADOW_BLUR = 0f;         // flou de l'ombre (0 = ombre nette)
 	private static final Color TEXT_COLOR = new Color(255, 255, 255);
 	private static final Color OUTLINE_COLOR = new Color(135, 206, 235);      // bleu ciel
 	private static final Color SHADOW_COLOR = new Color(0, 0, 0, 160);        // noir ~63 %
-	private static final float SHARPNESS = 1.6f;         // netteté des bords (1 = lissage normal, plus haut = plus net)
+	private static final float SHARPNESS = 2.2f;         // netteté des bords (1 = lissage normal, plus haut = plus net)
 	private static final String LABEL = "Jour ";
 	// ============================================================
 
